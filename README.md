@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Linktree
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web app that allows a person show their personal profile and link to various digital things that they sell
 
-## Available Scripts
 
-In the project directory, you can run:
+The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.. click [here] (https://usorfaitheloho.github.io/Awesome-booksES6/) to see deployed live version
 
-### `npm start`
+![screenshot](images/Screenshoot-3.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features implemented so far
+- Add book feature
+- Remove book feature
+- Saving current state of booklist to local storage 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- React
+- CSS3
+- Linters
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+### Prerequisites
+- Have a good knowledge on javascript objects
+- Have VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
+- Install node package. [Link to download node](https://nodejs.org/en/download/)
+- Have git installed.[Link to download git](https://git-scm.com/downloads)
+- Create a github repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
+- git clone https://github.com/usorfaitheloho/Awesome-booksES6.git
+- cd Awesome-booksES6/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Authors
 
-### `npm run eject`
+👤 **Faith Eloho usor**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- GitHub: [@githubhandle](https://github.com/usorfaitheloho)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Awesome-books
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+This is a pair programming project that allows users to add and remove books from a list using javascript objects and arrays
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.. click [here] (https://usorfaitheloho.github.io/Awesome-booksES6/) to see deployed live version
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![screenshot](images/Screenshoot-3.PNG)
 
-### Code Splitting
+## Features implemented so far
+- Add book feature
+- Remove book feature
+- Saving current state of booklist to local storage 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built With
 
-### Analyzing the Bundle Size
+- HTML5, Javascript
+- CSS3
+- Linters
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running follow these simple example steps.
 
-### Making a Progressive Web App
+### Prerequisites
+- Have a good knowledge on javascript objects
+- Have VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
+- Install node package. [Link to download node](https://nodejs.org/en/download/)
+- Have git installed.[Link to download git](https://git-scm.com/downloads)
+- Create a github repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Setup
+- git clone https://github.com/usorfaitheloho/Awesome-booksES6.git
+- cd Awesome-booksES6/
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Authors
 
-### Deployment
+👤 **Faith Eloho usor**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub: [@githubhandle](https://github.com/usorfaitheloho)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
