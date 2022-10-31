@@ -1,35 +1,37 @@
 import React from 'react';
-import HomePage from './component/HomePage';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './component/HomePage.js';
 
 const App = () => {
   const links = [
     {
-      id: 1,
+      id: 'twitter',
       title: 'Twitter Link',
       url: 'https://twitter.com/faith_usor16',
     },
     {
-      id: 2,
+      id: 'btn__zuri',
       title: 'Zuri Team',
       url: 'https://training.zuri.team/',
     },
     {
-      id: 3,
+      id: 'books',
       title: 'Zuri Books',
       url: 'https://books.zuri.team/',
     },
     {
-      id: 4,
+      id: 'book__python',
       title: 'Python Books',
-      url: 'https://books.zuri.team/python-for-beginners?ref_id=%3Cvickymarz%3E',
+      url: `https://books.zuri.team/python-for-beginners?ref_id=${process.env.REACT_APP_SLACK_USERNAME}`,
     },
     {
-      id: 5,
+      id: 'pitch',
       title: 'Background Check for Coders',
       url: 'https://background.zuri.team/',
     },
     {
       id: 5,
+      title: 'book__design',
       title: 'Design Books',
       url: 'https://books.zuri.team/design-rules',
     },
@@ -37,9 +39,10 @@ const App = () => {
 
   return (
     <>
-      <HomePage links={links} />
+      <Routes>
+        <Route path="/" element={<HomePage links={links} />} />
+      </Routes>
     </>
   );
-
 };
 export default App;

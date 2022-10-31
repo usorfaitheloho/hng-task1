@@ -3,9 +3,8 @@
 This is a web app that allows a person show their personal profile and link to various digital things that they sell
 
 
-The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.. click [here] (https://usorfaitheloho.github.io/Awesome-booksES6/) to see deployed live version
+My goal here is to Build a single page web application for linktree-app using the React library, Click [here](https://mylinktrees.netlify.app/) to get a live preview of the project.
 
-![screenshot](images/Screenshoot-3.PNG)
 
 ## Features implemented so far
 - Add book feature
