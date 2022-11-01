@@ -1,14 +1,13 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import avatar from '../images/avatar.jpg';
-import Image from './Image';
-import LinkData from './LinkData';
+import Image from './Image.js';
+import LinkData from './LinkData.js';
 import github from '../images/github.png';
 import slack from '../images/slack.png';
 import hng from '../images/I4G.png';
 import styles from '../css/homepage.module.css';
 
-const Homepage = ({ links }) => {
+const Home = ({ links }) => {
   const linkData = links.map(({ id, title, url }) => (
         <li key={id} className={styles.list}>
         <LinkData link={url} id={id}>
@@ -50,8 +49,8 @@ const Homepage = ({ links }) => {
   );
 };
 
-Homepage.propTypes = {
+Home.propTypes = {
   links: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object])).isRequired,
 };
 
-export default Homepage;
+export default Home;

@@ -1,6 +1,4 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import HomePage from './component/HomePage.js';
+import Home from './component/Home.js';
 
 const App = () => {
   const links = [
@@ -38,9 +36,7 @@ const App = () => {
 
   return (
     <>
-      <Routes>
-        <Route path="/" element={<HomePage links={links} />} />
-      </Routes>
+     <Home links={links} />
     </>
   );
 };
