@@ -8,11 +8,11 @@ const Links = ({ link, children }) => (
         {children}
       </Link>
     </div>
-  );
+);
 
-  Links.propTypes = {
-    children: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
-    link: PropTypes.string.isRequired,
-  };
+Links.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
+  link: PropTypes.string.isRequired,
+};
 
 export default Links;

@@ -9,15 +9,15 @@ import hng from '../images/I4G.png';
 import styles from '../css/homepage.module.css';
 
 const Homepage = ({ links }) => {
-    const linkData = links.map(({ id, title, url }) => (
+  const linkData = links.map(({ id, title, url }) => (
         <li key={id} className={styles.list}>
         <LinkData link={url} id={id}>
           {title}
         </LinkData>
          </li>
-    ));
-  
-    return (
+  ));
+
+  return (
         <>
         <main className={styles.container}>
           <div className={styles.avatar}>
@@ -47,11 +47,11 @@ const Homepage = ({ links }) => {
           </div>
         </footer>
       </>
-    );
-  };
-  
-  Homepage.propTypes = {
-    links: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object])).isRequired,
-  };
+  );
+};
+
+Homepage.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object])).isRequired,
+};
 
 export default Homepage;
