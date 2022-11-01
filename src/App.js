@@ -30,8 +30,7 @@ const App = () => {
       url: 'https://background.zuri.team/',
     },
     {
-      id: 5,
-      title: 'book__design',
+      id: 'book__design',
       title: 'Design Books',
       url: 'https://books.zuri.team/design-rules',
     },
