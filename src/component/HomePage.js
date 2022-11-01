@@ -21,14 +21,14 @@ const Homepage = ({ links }) => {
         <>
         <main className={styles.container}>
           <div className={styles.avatar}>
-            <Image src={avatar} alt="victor photo" id={styles.profile__img} />
+            <Image src={avatar} alt="faith photo" id={styles.profile__img} />
           </div>
-          <h1 className={styles.title}>Victor Okoroji</h1>
+          <h1 className={styles.title}>Faith Usor</h1>
           <ul className={styles.lists}>
             {linkData}
           </ul>
           <div className={styles.social}>
-            <LinkData link="https://github.com/vickymarz" id="github">
+            <LinkData link="https://github.com/usorfaitheloho@gmail.com" id="github">
               <Image src={github} alt="github" />
             </LinkData>
             <LinkData link={`${process.env.REACT_APP_NOT_SECRET_CODE}`} id="slack">
