@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import avatar from '../images/avatar.jpg';
+import avatar from '../../images/avatar.jpg'
 import Image from '../Image.js';
 import LinkData from '../LinkData.js';
-import github from '../images/github.png';
-import slack from '../images/slack.png';
+import github from '../../images/github.png';
+import slack from '../../images/slack.png';
 import hng from '../images/I4G.png';
-import styles from '../css/homepage.module.css';
+import styles from '../../css/homepage.module.css';
+import Footer from '../Footer.js';
 
 const Homepage = ({ links }) => {
   const linkData = links.map(({ id, title, url }) => (
@@ -36,16 +37,7 @@ const Homepage = ({ links }) => {
             </LinkData>
           </div>
         </main>
-        <footer>
-          <h2>
-            <span className={styles.vector}>Zuri</span>
-            Internship
-          </h2>
-          <p>HNG Internship 9 Frontend Task</p>
-          <div className={styles.footerImg}>
-            <Image src={hng} alt="ingressive logo" />
-          </div>
-        </footer>
+        <Footer />
       </>
   );
 };
