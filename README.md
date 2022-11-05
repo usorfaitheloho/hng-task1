@@ -2,7 +2,7 @@
 
 This is a web app that allows a person show their personal profile and link to various digital things that they sell
 
-![screenshot](./src/images/preview.png)
+![screenshot](./src/images/preview.PNG)
 
 
 My goal here is to Build a single page web application for linktree-app using the React library, Click [here](https://faith-linktree-app.netlify.app/) to get a live preview of the project.
