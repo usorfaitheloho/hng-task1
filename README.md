@@ -2,14 +2,11 @@
 
 This is a web app that allows a person show their personal profile and link to various digital things that they sell
 
+![screenshot](./src/images/screenshot.png)
+
 
 My goal here is to Build a single page web application for linktree-app using the React library, Click [here](usorfaitheloho.github.io/hng-task1/) to get a live preview of the project.
-
-
-## Features implemented so far
-- Add book feature
-- Remove book feature
-- Saving current state of booklist to local storage 
+ 
 
 ## Built With
 
