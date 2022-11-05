@@ -29,7 +29,7 @@ const Contact = () => {
           />
           <div className={styles.conditions}>
             <Input type="checkbox" className={`${styles.checkbox} ${isChecked ? styles.checked : ''}`} name="checkbox" checked={isChecked} onChange={handleCheckbox} id="checkbox" />
-            <span>You agree to providing your data to Victor Okoroji who may contact you.</span>
+            <span>You agree to providing your data to Faith Usor who may contact you.</span>
           </div>
           <button type="submit" className={styles.submitButton} id="btn__submit"> Send message </button>
         </form>
