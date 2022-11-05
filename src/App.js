@@ -42,11 +42,10 @@ const App = () => {
   ];
 
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<HomePage links={links} />} />
-      </Routes>
-    </>
+  <Routes>
+    <Route path="/" element={<Homepage links={links} />} />
+    <Route path="/contact" element={<Contact />} />
+  </Routes>
   );
 };
 export default App;
