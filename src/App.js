@@ -38,13 +38,13 @@ const App = () => {
     {
       id: 'contact',
       title: 'Contact Me',
-      url: '/contat',
+      url: '/contact',
     },
   ];
 
   return (
   <Routes>
-    <Route path="/" element={<Homepage links={links} />} />
+    <Route path="/" element={<HomePage links={links} />} />
     <Route path="/contact" element={<Contact />} />
   </Routes>
   );
