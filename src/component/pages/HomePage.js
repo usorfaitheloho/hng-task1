@@ -5,7 +5,6 @@ import Image from '../Image.js';
 import LinkData from '../LinkData.js';
 import github from '../../images/github.png';
 import slack from '../../images/slack.png';
-import hng from '../images/I4G.png';
 import styles from '../../css/homepage.module.css';
 import Footer from '../Footer.js';
 
