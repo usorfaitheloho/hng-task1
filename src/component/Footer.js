@@ -1,6 +1,6 @@
 import React from "react";
 import hng from '../images/I4G.png';
-import styles from '../css/homepage.module';
+import styles from '../css/homepage.module.css';
 import Image from "./Image";
 
 
