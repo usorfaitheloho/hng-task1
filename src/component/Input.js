@@ -2,24 +2,29 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 const Input = ({
-     type, name, placeholder, className,
-     }) => (
-    <div className={className}>
-      <label htmlFor={name}>{name}</label>
-      <input type={type} id={name} checked placeholder={placeholder} />
-    </div>
-  );
-  
-  Input.propTypes = {
-    type: propTypes.string.isRequired,
-    name: propTypes.string.isRequired,
-    placeholder: propTypes.string,
-    className: propTypes.string,
-  };
+  type, name, placeholder, className, checked, onChange, id,
+}) => (
+  <div className={className}>
+    <label htmlFor={id}>{name}</label>
+    <input type={type} id={id} checked={checked} placeholder={placeholder} onChange={onChange} />
+  </div>
+);
 
-  
+Input.propTypes = {
+  type: propTypes.string.isRequired,
+  name: propTypes.string.isRequired,
+  placeholder: propTypes.string,
+  className: propTypes.string,
+  id: propTypes.string.isRequired,
+  checked: propTypes.bool,
+  onChange: propTypes.func,
+};
+
 Input.defaultProps = {
-    placeholder: '',
-    className: '',
-  };
-  export default Input;
+  placeholder: '',
+  className: '',
+  checked: '',
+  onChange: '',
+};
+
+export default Input;
